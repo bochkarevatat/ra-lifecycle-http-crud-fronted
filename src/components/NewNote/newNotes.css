@@ -1,0 +1,35 @@
+
+.input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 60%;
+    height: 150px;
+}
+.label-title {
+    font-size: 16px;
+}
+.textarea {
+    display: block;
+    width: 80%;
+    resize: none;
+    overflow: auto;
+    border: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.postBtn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    background: url('../img/paper-plane.png') center 50% no-repeat;
+}
