@@ -11,8 +11,13 @@ type NewNotesProps = {
 
 const NewNotes: React.FC<NewNotesProps> = ({ newNote, setNewNote, addNote }) => {
 
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+    
+  };
   return (
-    <form className="input">
+    <form className="input" onSubmit={handleSubmit}>
+     
      
       <label className="label-title">New Note
         <textarea
